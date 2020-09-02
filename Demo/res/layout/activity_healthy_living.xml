@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/titlebg"
+       android:orientation="vertical" >
+
+      <TextView
+          android:id="@+id/titlesting"
+          android:layout_marginLeft="56dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/app_name"
+          android:textStyle="bold"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+	<RelativeLayout
+	    android:id="@+id/app1"
+	    android:layout_marginTop="4dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/bg1" >
+
+			     <TextView
+			         android:id="@+id/appstring1"
+			         android:layout_width="wrap_content"
+			         android:layout_height="wrap_content"
+			         android:layout_centerVertical="true"
+			         android:layout_marginLeft="130dp"
+			         android:text="@string/colorappname"
+			         android:textStyle="bold"
+			         android:gravity="center"
+			         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	</RelativeLayout>
+	
+<RelativeLayout
+    android:id="@+id/app2"
+    android:layout_marginTop="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg2" >
+
+			     <TextView
+			         android:id="@+id/appstring2"
+			         android:layout_width="wrap_content"
+			         android:layout_height="wrap_content"
+			         android:layout_centerVertical="true"
+			         android:layout_marginLeft="130dp"
+			         android:text="@string/heartappname"
+			         android:textStyle="bold"
+			         android:gravity="center_vertical|center_horizontal"
+			         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  			      		       
+	</RelativeLayout>
+	
+	<RelativeLayout
+	    android:id="@+id/app3"
+	    android:layout_marginTop="4dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/bg3" >
+
+			     <TextView
+			         android:id="@+id/appstring3"
+			         android:layout_width="wrap_content"
+			         android:layout_height="wrap_content"
+			         android:layout_centerVertical="true"
+			         android:layout_marginLeft="130dp"
+			         android:text="@string/eyssightappname"
+			         android:textStyle="bold"
+			         android:gravity="center_vertical|center_horizontal"
+			         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  			      		       
+	</RelativeLayout>
+
+		<RelativeLayout
+		    android:id="@+id/app4"
+		    android:layout_marginTop="4dp"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/bg4" >
+
+			     <TextView
+			         android:id="@+id/appstring4"
+			         android:layout_width="wrap_content"
+			         android:layout_height="wrap_content"
+			         android:layout_centerVertical="true"
+			         android:layout_marginLeft="130dp"
+			         android:text="@string/bikeappname"
+			         android:textStyle="bold"
+			         android:gravity="center_vertical|center_horizontal"
+			         android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	</RelativeLayout>	
+	
+	<RelativeLayout
+	    android:id="@+id/app5"
+	    android:layout_marginTop="4dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/bg5" >
+
+			     <TextView
+			         android:id="@+id/appstring5"
+			         android:layout_width="wrap_content"
+			         android:layout_height="wrap_content"
+			         android:layout_centerVertical="true"
+			         android:layout_marginLeft="130dp"
+			         android:text="@string/stepappname"
+			         android:textStyle="bold"
+			         android:gravity="center_vertical|center_horizontal"
+			         android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+  			      		       
+	</RelativeLayout>
+   
+</LinearLayout>

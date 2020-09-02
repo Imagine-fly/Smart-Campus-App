@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="title_activity_healthy_living">HealthyLiving</string>
+    <string name="app_name">SmartSchool</string>
+    <string name="title_activity_main">INSTANT HEART RATE</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="help_introduce">Place the tip of your index finger gently on the camera lens-do not press too hard as this can stop the blood flow on the surface of your finger.Hold it steady for at least 10 seconds;your heart rate will be shown.Give it a couple of seconds to stabilize.</string>
+    <string name="start_using">START  USING</string>
+    <string name="welcome_to">Welcome to Instant Heart Rate</string>
+    <string name="heart_history">Heart Rate History Record</string>
+    <string name="help_info">INFO:This is an advanced version that requires capable hardware.If you have problems using this version try Instant Heart Rate Classic which is available on Addroid Market.</string>
+    <string name="led_introduce">It is important that you use this App in well-lit conditions if the LED flash didnot turn on!</string>
+    <string name="help_introduce_use">You can also share your current heart rate on Facebook,sms or via other installed social App using the share button.</string>
+    <string name="measure">MEASURE</string>
+    <string name="share_to">SHARE</string>
+    <string name="history">HISTORY</string>
+    <string name="store">STORE</string>
+    <string name="menu_settings">Settings</string>
+        <string name="title_activity_start">Color blindness test</string>
+    <string name="about_color_blindness">About color blindness test</string>
+    <string name="about_color_blindness_msg" formatted="false">Color blindness,also known as color vision to identify obstacles, is one kind of defect that can not Correct identification part or all color.Color blindness usually because of Hereditary and it also sometimes because of the optic nerve and the brain pathological changes or caused of exposure to certain chemicals. About 8% of the global number has the problem and the males incidence is higher than females.The number is 8% of males and 0.5% females.Most color blindness is part color blind.Only a handful of color blindness is full color blind.Mild color vision abnormality is called color weakness but it is Lesser compared with Color blindness. </string>
+    <string name="label_ok">Understand</string>
+    <string name="about_this_software">About this app</string>
+    <string name="about_this_software_msg">Do you want to know that if you are not colorblind?You can try this simple app to test and if you can not Identificate some of the pictures,you maybe a Color blindness of this color. PS：this result is  reference only.if you want the accurate result,you should consult a doctor.Health line with you!</string>
+    <string name="start">Start</string>
+    <!-- //>2014/02/13-A123456-RubyJiang, [AAP1302][ColorBlindness]Change start screen style -->
+    <!-- <string name="guide">This app is used for color vision test,please chose what you see within 5s!</string> -->
+    <string name="guide1">This app is used for color vision test,</string>
+    <string name="guide2">please choose what you see within 5s!</string>
+    <!-- //>2014/02/13-A123456-RubyJiang -->
+    <string name="test">Welcome to the test~</string>
+    <string name="other">Other</string>
+    <string name="unknown">Unknown</string>
+    <string name="five">5</string>
+    <string name="three">3</string>
+    <string name="six">6</string>
+    <string name="two">2</string>
+    <string name="two_six">26</string>
+    <string name="two_nine">29</string>
+    <string name="seven_zero">70</string>
+    <string name="six_six">66</string>
+    <string name="six_eight_nine">689</string>
+    <string name="eight_zero_six">806</string>
+    <string name="cattle">Cow</string>
+    <string name="deer">Deer</string>
+    <string name="next">Next</string>
+    <string name="error">Error</string>
+    <string name="invalid_answer">Please select the answer that you see after then click Next</string>
+    <string name="testResult">Correct rate：</string>
+    <string name="first">Congratulations, your eyes are very good</string>
+    <string name="second">Sorry，your eyes may have Somewhat problems but not very Serious.You can test one more time or consult a doctor.</string>
+    <string name="third">Sorry，your eyes have Somewhat problems.It maybe cause by Disease,you can consult a doctor.</string>
+    <string name="four">Sorry， your eyes have Somewhat problems.you should consult a doctor.</string>
+    <string name="share">Share</string>
+    <!-- //<2014/02/13-A123456-RubyJiang, [AAP1302][ColorBlindness]Change result screen style -->
+    <string name="back">Back</string>
+    <!-- //>2014/02/13-A123456-RubyJiang -->
+    <string name="notification_text">Please do not let your phone flatting</string>
+    <string name="left_score_text">Left eye vision was:</string>
+    <string name="right_score_text">Right eye vision was:</string>
+    <string name="title_score_text">Test result</string>
+    <string name="share_text">Share</string>
+    <string name="retest_text">Retest</string>
+    <string name="remind_text">You should keep the picture show "E" through Rotate the phone screen.</string>
+    <string name="title_ready_text">Testing</string>
+    <string name="back_text">Back</string>
+    <string name="test_right_text">Test right eye</string>
+    <string name="test_left_text">Test left eye</string>
+    <string name="eyssightappname">Vision test</string>
+    <string name="colorappname">Color blindness test</string>
+    <string name="heartappname">Heart rate test</string>
+    <string name="bikeappname">Bicycle riding</string>
+    <string name="stepappname">Walking exercise</string>
+    <string name="shareResult">Thank you for this test,your color vision value is：<xliff:g id="name">%1$s</xliff:g></string>
+    <!-- 2014/02/21-34134-WendyWan,[AAP1302][Eyesight]Fix bug 317 that the first letters haven't capitalized-->
+    <!-- <string name="help_text">help</string>
+    <string name="start_text">start</string>-->
+    <string name="help_text">Help</string>
+    <string name="start_text">Start</string>
+    <!-- 2014/02/21-34134-WendyWan -->
+    <string name="title_help_text">Instructions for use</string>
+    <string name="title_method_text">Test method :</string>
+    <string name="title_time_text">Test time :</string>
+    <string name="title_remind_text">Test remind :</string>
+    <string name="test_method_text">（1）When using the  app,upright the phone  in 40cm or 16in from your eyes position\n（2）Keep the phone balance at the beginning of the test, do not just shake the phone\n（3）You should use the gravity sensors to maintain the picture show "E" through Rotate the phone screen.\n（4）if you choose right,you will go to the next,otherwise the test will over.You can try again or try the other eye.</string>
+    <string name="test_time_text">Testing time is about 2-3 minutes.</string>
+    <string name="test_remind_text">The software test results have some errors, just for reference.\n\t\tThank you for your use, I wish you a happy!</string>
+    <string name="loading_text">Waiting</string>
+    <string name="share_score">Share</string>
+    <!-- //<2014/01/16-33088-ZhiweiWang,[HealthyLiving][InstantHeartRate]add share function and system time to HeartRate . -->
+    <string name=" no_data_to_share">You have not get new data,so no data to share</string>
+    <!-- //<2014/01/16-33088-ZhiweiWang -->
+    <string name="score_level_0_txt">Decimal visual acuity less than :0.1   5-grade Visual acuity less than :4.0</string>
+    <string name="score_level_1_txt">Decimal visual acuity :0.1     5-grade Visual acuity :4.0</string>
+    <string name="score_level_2_txt">Decimal visual acuity :0.12   5-grade Visual acuity :4.1</string>
+    <string name="score_level_3_txt">Decimal visual acuity :0.15   5-grade Visual acuity :4.2</string>
+    <string name="score_level_4_txt">Decimal visual acuity :0.2     5-grade Visual acuity :4.3</string>
+    <string name="score_level_5_txt">Decimal visual acuity :0.25   5-grade Visual acuity :4.4</string>
+    <string name="score_level_6_txt">Decimal visual acuity :0.3     5-grade Visual acuity :4.5</string>
+    <string name="score_level_7_txt">Decimal visual acuity :0.4     5-grade Visual acuity :4.6</string>
+    <string name="score_level_8_txt">Decimal visual acuity :0.5     5-grade Visual acuity :4.7</string>
+    <string name="score_level_9_txt">Decimal visual acuity :0.6     5-grade Visual acuity :4.8</string>
+    <string name="score_level_10_txt">Decimal visual acuity :0.8     5-grade Visual acuity :4.9</string>
+    <string name="score_level_11_txt">Decimal visual acuity :1.0     5-grade Visual acuity :5.0</string>
+    <string name="score_level_12_txt">Decimal visual acuity :1.2     5-grade Visual acuity :5.1</string>
+    <string name="score_level_13_txt">Decimal visual acuity :1.5     5-grade Visual acuity :5.2</string>
+    <!--//<2013/01/19-33169-ZhiweiWang,[HealthyLiving][InstantHeartRate]Check the HW info of FlashLight before test and debug test method. -->
+    <string name="suggest_donot_to_test">Without the flash light, suggest do not do the heart rate test.Back to HealthyLiving?</string>
+    <string name="check_FlashLight">Check FlashLight.</string>
+    <!--//<2013/01/19-33169-ZhiweiWang. -->
+    <string name="menu_about">About</string>
+    <string name="menu_close">Close</string>
+    <string name="pedometer_step_count">Step Count</string>
+    <string name="pedometer_step_title">Step</string>
+    <string name="pedometer_distance_title">Mileage</string>
+    <string name="pedometer_distance">Km</string>
+    <string name="pedometer_calorie_title">Physical exertion</string>
+    <string name="pedometer_calorie">Calories</string>
+    <string name="pedometer_speed_title">Speed</string>
+    <string name="pedometer_speed">Km/h</string>
+    <string name="pedometer_sport_mode">Movement pattern(Walk/Run)</string>
+    <string name="pedometer_sport_mode_run">Run</string>
+    <string name="pedometer_sport_mode_walk">Work</string>
+    <string name="pedometer_reset">Reset</string>
+    <string name="pedometer_start">Start</string>
+    <string name="pedometer_stop">Stop</string>
+    <string name="pedometer_save">Save</string>
+    <string name="pedometer_step_width">Set Step Width(Walk/Run)</string>
+    <string name="pedometer_OK">OK</string>
+    <string name="pedometer_Cancel">Cancel</string>
+    <string name="pedometer_setting_step_width">Step Width</string>
+    <string name="pedometer_setting_step_width_sub">The width of every step .that we will use to calculate the distance,speed and Calories.</string>
+    <string name="pedometer_setting_weight">Weight</string>
+    <string name="pedometer_setting_weight_sub">Calculate your Calories.</string>
+    <string name="pedometer_setting_sprot_mode_sub">The mode of your sports,which used for Calculate your Calories</string>
+    <string name="pedometer_default_value">0</string>
+    <string name="pedometer_default_runned_time">00:00:00</string>
+   
+    <!-- 2013/02/26-34259-HenryPeng, [AAP1302][Bug-318]Walking exercise-Prompt "Unfortunately, the process com.arima.healthyliving has stopped".-->
+    <string name="pedometer_history_empty">You have no history!</string>
+    <!-- 2013/02/26-34259-HenryPeng -->
+     <!--//<2013/01/21-33209-ZhiweiWang,[HealthyLiving][InstantHeartRate]Modify share data format.-->
+    <string name="share_data" xliff:restype="x-GENERIC/CONTACTPICKER/RECIPIENTBAR">Your heart rate value is : <xliff:g id="data">%d</xliff:g></string>  
+     <!--//>2013/01/21-33209-ZhiweiWang.-->
+     <!--  //<2014/01/27-33432-ZhiweiWang,[HealthyLiving][InstantHeartRate]Modify heartRate history storage dialog title. -->
+     <string name="store_heart_rate">Store Heart Rate test result</string>
+     <string name="my_heart_rate">My heart rate</string>
+     <string name="no_data_to_store">You have not get new data,so no data to store</string>
+     <!--  //<2014/01/27-33432-ZhiweiWang. -->
+      <!--  //<2014/02/23-34164-ZhiweiWang,[HealthyLiving][InstantHeartRate]Prepare toast for stop heart rate test when your finger not put on the camera.-->
+     <string name="put_finger_onCamera">You have not put your finger on the camera.</string>
+      <!--  //>2014/02/23-34164-ZhiweiWang.-->
+      
+       <string name="app_id">564ea6ef</string>
+    <string name="demo_introduction">注意：\n\t用户名不能为空,不支持中文字符,不能包含空格,6至18个字母、数字或下划线的组合，以字母开头。</string>
+    <string name="title_activity_success">SuccessActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Hello World, HelloWorldActivity!</string>
+   
+    <string name="yuyin">语音登录</string>
+    <string name="zhanghao">账号登录</string>
+    <string name="hint1">请输入手机号码</string>
+    <string name="hint2">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="exit">返回</string>
+    <string-array name="yuanxiItems">
+        <item>通信工程学院</item>
+        <item>能源与动力工程学院</item>
+        <item>人文与社会科学学院</item>
+        <item>外国语学院</item>
+        <item>康尼学院</item>
+        <item>建筑工程学院</item>
+        <item>机械工程学院</item>
+        <item>材料工程学院</item>
+        <item>自动化学院</item>
+        <item>艺术与设计学院</item>
+        <item>计算机工程学院</item>
+        <item>汽车与轨道交通学院</item>
+        <item>创新学院</item>
+        <item>电力工程学院</item>
+        <item>经济管理学院</item>
+        <item>环境工程学院</item>
+        <item>研究生院</item>
+        <item>工业中心</item>
+        <item>其它院系</item>
+    </string-array>
+    <string name="inf1">请输入账号和密码，完成注册</string>
+    <string name="inf2">请确认教育信息</string>
+    <string name="title3">注册信息填写</string>
+    <string name="mobilephone">手机号</string>
+    <string name="password">密码</string>
+    <string name="educate">请确认教育信息</string>
+    <string name="school_name">学校</string>
+    <string name="NJIT">南京工程学院</string>
+    <string name="yuanxi">院系</string>
+    <string name="nianfen">入学年份</string>
+    <string-array name="nianfen_item">
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+    </string-array>
+    <string-array name="xueli_item">
+        <item>本科</item>
+        <item>研究生</item>
+    </string-array>
+    <string name="xueli">学历</string>
+    <string name="title4">登录成功</string>
+    <string name="login_fail">登录失败</string>
+    <string name="zhiwu">职务</string>
+    <string name="laoshi">老师</string>
+    <string name="xuesheng">学生</string>
+    <string name="getyanzheng">获取验证码</string>
+    <string name="yanzheng">验证码</string>
+    <string name="forgetmm">忘记密码</string>
+    <string name="newpassword">新密码</string>
+    <string name="repassword">确认密码</string>
+    <string name="sign">签到</string>
+    <string name="book">图书查询</string>
+    <string name="stu_card">学生卡查询</string>
+    <string name="health">生活与健康</string>
+    <string name="menu">菜单</string>
+    <string name="sure">确认</string>
+    <string name="name">姓名</string>
+    <string name="xuehao">学号</string>
+    <string name="create">创建课程</string>
+    <string name="yisign">已签到人员</string>
+      
+      
+</resources>

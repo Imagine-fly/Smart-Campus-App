@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="294dp"
+    android:layout_height="274dp"
+    android:orientation="vertical"
+    android:background="@drawable/about_popup" >
+    
+    <TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true"
+	android:layout_marginTop="2dp"
+    android:text="@string/about_color_blindness"
+    android:textAppearance="?android:attr/textAppearanceMedium" />   
+   <ScrollView
+    android:id="@+id/SCROLLER_ID"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:layout_below="@id/title"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_marginBottom="46dp"
+    android:fillViewport="true">
+        
+    <TextView
+        android:id="@+id/diagmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_color_blindness_msg"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+/>
+
+    </ScrollView>
+
+	<Button
+	    android:id="@+id/backbutton"
+	    android:layout_width="93dp"
+	    android:layout_height="30dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="8dp"
+	    android:background="@drawable/healthyliving_popup"
+	    android:text="@string/back" />
+    
+</RelativeLayout>

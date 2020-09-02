@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 2014/02/21-Task_34127-xiangrongji, [AAP1302][BycicleRiding]upload codes for Bycicle Riding screens -->
+    <dimen name="bycrid_main_title_top">100dip</dimen>
+    <dimen name="bycrid_main_menu_width">280dip</dimen>
+    <dimen name="bycrid_main_title_text_size">36sp</dimen>
+    <dimen name="bycrid_main_menu_text_size">28sp</dimen>
+    <dimen name="bycrid_main_btn_width">120dip</dimen>
+    <dimen name="bycrid_main_btn_gap">24dip</dimen>
+    <dimen name="bycrid_riding_item_text_size">24sp</dimen>
+    <!-- //>2014/02/21-Task_34127-xiangrongji -->
+     <!-- <2014/02/25-Task_34211-ZhiweiWang,[HealthyLiving][BycicleRide] BycicleRide app UI Modify. -->
+     <dimen name="bycrid_main_title_margintop">65dip</dimen>
+     <dimen name="bycrid_main_startButton_margintop">70dip</dimen>
+     <dimen name="bycrid_main_button_marginLeft">12.6dip</dimen>
+    <!-- <2014/02/25-Task_34211-ZhiweiWang. -->
+    
+    <!-- 2013/02/26-34259-HenryPeng,[AAP1302][Bug-318]Walking exercise-Prompt "Unfortunately, the process com.arima.healthyliving has stopped" -->
+    <dimen name="pedometer_history_delete_margin_bottom">10dp</dimen>
+    <dimen name="pedometer_history_title_height">40dp</dimen>
+    <dimen name="pedometer_history_item_margin_left">3dp</dimen>
+    <dimen name="pedometer_history_item_margin_right">7dp</dimen>
+    <dimen name="pedometer_history_item_margin_top">10dp</dimen>
+    <dimen name="pedometer_history_item_margin_bottom">5dp</dimen>
+    <dimen name="pedometer_history_margin_left">2dp</dimen>
+    <dimen name="pedometer_history_margin_right">2dp</dimen>
+    <dimen name="pedometer_history_time_margin_top">8dp</dimen>
+    <dimen name="pedometer_history_margin_top">15dp</dimen>
+    <dimen name="pedometer_main_margin">5dp</dimen>
+    <dimen name="pedometer_main_button_height">50dp</dimen>
+    <dimen name="pedometer_main_margin_right_10">10dp</dimen>
+    <dimen name="pedometer_main_margin_right_15">15dp</dimen>
+    <dimen name="pedometer_main_margin_right_20">20dp</dimen>
+    
+    <dimen name="pedometer_history_title_text_size">20sp</dimen>
+    <dimen name="pedometer_history_item_text_size">12sp</dimen>
+    <dimen name="pedometer_history_text_size">10sp</dimen>
+    <dimen name="pedometer_main_date_text_size">30sp</dimen>
+    <dimen name="pedometer_main_time_text_size">25sp</dimen>
+    <dimen name="pedometer_main_runned_time_text_size">34sp</dimen>
+    <dimen name="pedometer_main_info_text_size">30sp</dimen>
+    <!-- 2013/02/26-34259-HenryPeng -->
+    
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

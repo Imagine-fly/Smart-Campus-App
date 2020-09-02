@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/starticon"/>
+    
+    <!-- //>2014/02/13-33894-RubyJiang, [AAP1302][ColorBlindness]Change start screen style -->
+    <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:text="@string/guide"/> -->
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+	    android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:background="@drawable/maps"
+        android:orientation="vertical" >
+        
+        <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center_horizontal"
+	        android:textStyle="bold"
+	        android:alpha="0.3"
+	        android:textColor="#ffffff"
+	        android:text="@string/guide1"/>
+        
+        <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center_horizontal"
+	        android:textStyle="bold"
+	        android:alpha="0.5"
+	        android:textColor="#ffffff"
+	        android:text="@string/guide2"/>
+	</LinearLayout>
+    <!-- //>2014/02/19-34020-RubyJiang, [AAP1302][ColorBlindness]Change text color on button and font size for result screen -->
+    <Button 
+        android:id="@+id/about_Color_Blindness_Button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="@string/about_color_blindness"
+        android:textColor="#ffffff"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:gravity="center"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:background="@drawable/button_1"/>
+    
+	<Button 
+        android:id="@+id/about_Software_Button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/about_this_software"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_1"/>
+    
+    <Button 
+        android:id="@+id/startButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/start"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_2"/>
+    <!-- //>2014/02/19-34020-RubyJiang -->
+    <!-- //>2014/02/13-33894-RubyJiang -->
+    
+</LinearLayout>

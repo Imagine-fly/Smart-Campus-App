@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="textColorRed">#FF0000</color>
+    <color name="textColorBlack">#000000</color>
+    <color name="title_color">#ff707070</color>
+    <color name="text_color">#ffCCFFCC</color>
+    <color name="text_data_title_color">#ff1E7200</color>
+    <color name="text_step_info_color">#ff7D4808</color>
+    <color name="text_speed_info_color">#ff6C0CA0</color>
+    <color name="text_style_info_color">#ff7F1314</color>
+    <color name="pedometer_background">#ff34DD22</color>
+    
+    
+      <color name="viewfinder_frame">#ff000000</color>
+  <color name="viewfinder_laser">#ffff0000</color>
+  <color name="viewfinder_mask">#60000000</color>
+  <color name="result_view">#b0000000</color>
+   <color name="possible_result_points">#c0ffff00</color>  
+    
+     <!-- <2014/02/25-Task_34211-ZhiweiWang,[HealthyLiving][BycicleRide] BycicleRide app UI Modify. -->
+    <color name="bycicle_textColor">#F5F5F5</color>
+    <color name="bycicle_textColorBlack">#1E5300</color>
+    <!-- <2014/02/25-Task_34211-ZhiweiWang. -->
+    <!-- 2013/02/26-34259-HenryPeng,[AAP1302][Bug-318]Walking exercise-Prompt "Unfortunately, the process com.arima.healthyliving has stopped" -->
+    <color name="pedometer_histor_item_text_color">#FFFAFA</color>
+    <!-- 2013/02/26-34259-HenryPeng -->
+</resources>   

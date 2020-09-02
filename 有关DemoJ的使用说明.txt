@@ -1,0 +1,3 @@
+文件Demo作为主工程，
+SpeechDemo，SMSSDK作为Demo的Library，
+将三个工程共同放在D盘的androidWorkSpace中使用，如果D盘没有androidWorkSpace文件夹，请先创建一个

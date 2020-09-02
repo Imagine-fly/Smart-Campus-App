@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shuye1"
+    >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView 
+            style="@style/textStyle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="智慧校园" 
+            android:textColor="#000000"/>
+        <TextView 
+            android:id="@+id/txt_authorid"
+            style="@style/textStyle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="#000000"/>
+        
+        
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:gravity="bottom"
+        android:orientation="vertical">
+       <Button 
+            android:id="@+id/sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign" 
+            android:textColor="@drawable/changecolor"
+            android:background="@drawable/shape"  
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="25sp"
+  />
+    </LinearLayout>
+    
+    
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.09"
+          android:gravity="bottom"
+          android:orientation="vertical" >
+       
+                <Button 
+            android:id="@+id/function_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="功能按钮" 
+            android:textColor="@drawable/changecolor"
+            android:background="@drawable/shape"  
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="25sp"
+  />
+
+    </LinearLayout>   
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <Button 
+            android:id="@+id/health"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/health"
+            android:textColor="@drawable/changecolor"
+            android:background="@drawable/shape"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            />
+     
+        
+        <Button 
+            android:id="@+id/qiehuan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="切换账号"
+            android:textColor="@drawable/changecolor"
+            android:background="@drawable/shape"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            />
+       
+        </LinearLayout>
+    
+   
+    
+ </LinearLayout>
+     

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable="false"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+   <!--  //<2014/01/16-33088-ZhiweiWang,[HealthyLiving][InstantHeartRate]add share function and system time to HeartRate.-->
+   <LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="0dip"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:clickable="false"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    <TextView
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingRight="3dip"
+        android:paddingLeft="8dp" 
+        android:singleLine="true"
+        android:textColor="#FFFAFA"
+        android:text="@string/title_activity_main"/>  
+    <TextView
+        android:id="@+id/time"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingRight="3dip"
+        android:paddingLeft="8dp" 
+        android:singleLine="true"
+        android:textColor="#FFFAFA"
+        android:text="@string/title_activity_main"/>  
+   </LinearLayout>
+    <!-- <TextView
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:paddingRight="3dip"
+        android:paddingLeft="8dp" 
+        android:singleLine="true"
+        android:textColor="#FFFAFA"
+        android:text="@string/title_activity_main"/>   -->
+    <!--  //<2014/01/16-33088-ZhiweiWang. -->
+    <ImageView
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:duplicateParentState="false"
+        android:src="@drawable/imagebutton_press_state"
+        android:layout_marginRight="10dip"
+        />
+</LinearLayout>

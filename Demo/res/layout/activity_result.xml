@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- //>2014/02/13-33894-RubyJiang, [AAP1302][ColorBlindness]Change result screen style -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup">
+    <!-- //>2014/02/19-34020-RubyJiang, [AAP1302][ColorBlindness]Change text color on button and font size for result screen -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:layout_marginTop="4dip"
+        android:textSize="20sp"
+        android:text="@string/testResult"/>
+    
+    <TextView 
+        android:id="@+id/correct_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:textSize="80sp"
+        android:background="@drawable/rate"/>
+    
+    <TextView 
+        android:id="@+id/diagnosis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:textSize="24sp"/>
+    <!-- //>2014/02/19-34020-RubyJiang -->
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="4dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+	    <Button 
+	        android:id="@+id/shareButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:text="@string/share"
+	        android:background="@drawable/share_and_back_button_background"/>
+	    <Button 
+	        android:id="@+id/backButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:text="@string/back"
+	        android:background="@drawable/share_and_back_button_background"/>
+    </RelativeLayout>
+    
+</RelativeLayout>
+<!-- //>2014/02/13-33894-RubyJiang -->

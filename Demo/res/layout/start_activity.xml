@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" 
+    android:background="@drawable/start_bg"  
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    
+
+    <Button
+        android:id="@+id/button_help"
+        android:layout_width="120dip"
+        android:layout_height="60dip"
+        android:layout_gravity="bottom|left|center" 
+        android:paddingLeft="20.0dip"
+        android:paddingRight="20.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginBottom="40.0dip"
+        android:background="@drawable/go_on_button" 
+        android:textSize="20.0dip" 
+        android:textColor="#ffffffff"/>
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="120dip"
+        android:layout_height="60dip"
+        android:layout_gravity="bottom|right|center" 
+        android:paddingLeft="20.0dip"
+        android:paddingRight="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginBottom="40.0dip"
+        android:background="@drawable/go_on_button" 
+        android:textSize="20.0dip" 
+        android:textColor="#ffffffff"/>
+    
+</FrameLayout>

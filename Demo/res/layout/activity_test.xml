@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- //>2014/02/12-33894-RubyJiang, [AAP1302][ColorBlindness]Change test screen style -->
+    <!-- <TextView
+        android:id="@+id/testTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="60dip"
+        android:textStyle="bold"/> -->
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginBottom="20dp"
+        android:background="@drawable/timer">
+	    <ImageView 
+	        android:id="@+id/testTime"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    
+    <ImageView 
+        android:id="@+id/testImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+    <!-- //>2014/02/19-34020-RubyJiang, [AAP1302][ColorBlindness]Change text color on button and font size for result screen -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:orientation="horizontal">
+        
+		<Button 
+			android:id="@+id/result1"
+	        android:layout_width="0px"
+	        android:layout_height="50dp"
+	        android:layout_weight="1"
+	        android:layout_gravity="center"
+	        android:textColor="#ffffff"
+	        android:background="@drawable/test_button_1"/>
+		<Button 
+	        android:id="@+id/result2"
+	        android:layout_width="0px"
+	        android:layout_height="50dp"
+	        android:layout_marginLeft="10dip"
+	        android:layout_weight="1"
+	        android:layout_gravity="center"
+	        android:textColor="#ffffff"
+	        android:background="@drawable/test_button_1"/>
+        <Button 
+	        android:id="@+id/result3"
+	        android:layout_width="0px"
+	        android:layout_height="50dp"
+	        android:layout_marginLeft="10dip"
+	        android:layout_weight="1"
+	        android:layout_gravity="center"
+	        android:textColor="#ffffff"
+	        android:background="@drawable/test_button_1"/>
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/next"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:text="@string/next"
+        android:textColor="#ffffff"
+        android:background="@drawable/test_button_2"/>
+    <!-- //>2014/02/19-34020-RubyJiang -->
+    <!-- //>2014/02/12-33894-RubyJiang -->
+</LinearLayout>

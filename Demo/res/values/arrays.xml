@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="intype"><item>奖学金</item><item>打工</item><item>家里寄来的</item></array>
+    <array name="outype"><item>吃饭</item><item>买东西</item><item>买衣服</item></array>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- <2014/02/25-Task_34211-ZhiweiWang,[HealthyLiving][BycicleRide] BycicleRide app UI Modify. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/riding_bg">
+   
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/riding_titlebar">
+        <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:background="@drawable/riding_titlebar_icon"
+	        android:layout_centerVertical="true" />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bycrid_history"
+            android:textSize="28sp"
+            android:textColor="@color/bycicle_textColor"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+        
+    <ListView 
+        android:id="@+id/bycrid_hstr_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="15dp">
+    </ListView>
+     <!-- <2014/02/25-Task_34211-ZhiweiWang. -->
+
+</LinearLayout>

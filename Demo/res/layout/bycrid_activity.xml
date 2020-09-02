@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <2014/02/25-Task_34211-ZhiweiWang,[HealthyLiving][BycicleRide] BycicleRide app UI Modify. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bycicle_main_bg">
+    
+        
+        <TextView android:id="@+id/bycrid_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/bycrid_main_title_margintop"
+            android:textSize="@dimen/bycrid_main_title_text_size"
+            android:layout_centerHorizontal="true"
+            android:text="@string/bycrid_main_title"
+            android:textColor="@color/bycicle_textColor"/>
+        
+            
+            <Button android:id="@+id/bycrid_btn_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="184dp"
+                android:layout_marginLeft="@dimen/bycrid_main_button_marginLeft"
+                android:textSize="@dimen/bycrid_main_menu_text_size"
+                android:text="@string/bycrid_start_riding"
+                android:textColor="@color/bycicle_textColor"
+                android:background="@drawable/bycicle_button_background"/>
+            
+            <Button android:id="@+id/bycrid_btn_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="268.6dp"
+                android:layout_marginLeft="@dimen/bycrid_main_button_marginLeft"
+                android:textSize="@dimen/bycrid_main_menu_text_size"
+                android:text="@string/bycrid_history"
+                android:textColor="@color/bycicle_textColor"
+                android:background="@drawable/bycicle_button_background"/>
+            
+            <Button android:id="@+id/bycrid_btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="353.3dp"
+                android:layout_marginLeft="@dimen/bycrid_main_button_marginLeft"
+                android:textSize="@dimen/bycrid_main_menu_text_size"
+                android:text="@string/bycrid_back"
+                android:textColor="@color/bycicle_textColor"
+                android:background="@drawable/bycicle_button_background"/>            
+
+        
+
+</RelativeLayout>
+ <!-- >2014/02/25-Task_34211-ZhiweiWang. -->

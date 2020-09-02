@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/function">
+    
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:gravity="bottom"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/shouzhi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+          android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+           android:background="#d8dfd8"
+            android:textSize="25sp"/>
+    </LinearLayout>
+ <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/books"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+         android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#d8dfd8"
+            android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btnFindbase"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#d8dfd8"
+            android:textSize="25sp" />
+
+ </LinearLayout>   
+</LinearLayout>
+
+
+     
